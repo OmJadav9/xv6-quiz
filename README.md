@@ -117,3 +117,35 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 
 ## Answers
 Please write your answers here
+
+1b. A Unix-like operating system
+2c. BSD
+3d. simple
+4b. As interrupts
+5c. 512
+6c. Sh
+7a. Round-robin scheduling
+8a. Paging
+9b. Using hardware interrupts
+10b. No
+11c. MIT
+
+Theoretical Question Answers:
+
+12 In XV6, a process can be in one of three states: Running, Sleeping, or Runnable.
+
+13 The file system in XV6 includes Inodes, Data blocks, Directory entries, and a Superblock.
+
+14 System calls provide an interface to the operating system kernel, while library functions are higher-level functions provided by libraries. Example: fork() as a system call for process creation and printf() as a library function for formatted output.
+
+15 XV6 uses paging for memory management, providing benefits like efficient memory use and easier management.
+
+16 Essential shell commands in XV6 include ls (list directory contents), cd (change the current directory), and cp (copy files or directories).
+
+17 Process synchronization in XV6 ensures orderly execution using mechanisms like locks and semaphores to coordinate access to shared resources.
+
+18 Interrupts in XV6 are handled using hardware interrupts, essential for responding to external events and maintaining system responsiveness.
+
+19 Virtual memory in XV6 is implemented through paging, allowing processes to use more memory than physically available, providing isolation and efficient memory usage.
+
+20 The boot process of XV6 involves BIOS initializing, bootloading the kernel, kernel initialization, initiation of the first user-space process, and the start of user interaction with the shell.
